@@ -1,3 +1,4 @@
+import { Card } from "@/components/card";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -17,6 +18,8 @@ export default function Home() {
         <h1 className="inline-block text-3xl font-extrabold text-gray-900 tracking-tight">
           Welcome to Neptune Mutual
         </h1>
+
+        <Card>Hello</Card>
       </main>
 
       <hr className="mt-8 mb-4" />
