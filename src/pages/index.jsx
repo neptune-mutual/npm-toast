@@ -1,4 +1,5 @@
-import { Card } from "@/components/card";
+import { RenderCounter } from "@/components/RenderCounter";
+import { ToastPusher } from "@/components/ToastPusher";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -15,16 +16,18 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="inline-block text-3xl font-extrabold text-gray-900 tracking-tight">
+        <h1 className="inline-block text-h1 mb-4 font-extrabold text-black tracking-tight">
           Welcome to Neptune Mutual
         </h1>
 
-        <Card>Hello</Card>
+        <ToastPusher />
+
+        <RenderCounter></RenderCounter>
       </main>
 
       <hr className="mt-8 mb-4" />
 
-      <footer className="mt-1 text-lg text-gray-500">
+      <footer className="mt-1 text-lg text-3A4557">
         &copy; {new Date().getFullYear()}, Neptune Mutual
       </footer>
     </div>
