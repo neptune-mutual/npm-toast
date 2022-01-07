@@ -3,7 +3,7 @@ import { useToast } from "@/lib/toast/context";
 
 const ERROR_TIMEOUT = 30000; // 30 seconds
 
-export const ToastPusher = ({ children }) => {
+export const ToastPusher = () => {
   const toast = useToast();
 
   const onSuccessToast = () => {

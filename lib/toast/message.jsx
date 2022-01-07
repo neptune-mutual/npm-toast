@@ -31,7 +31,6 @@ const ToastMessage = ({
   message,
   lifetime,
   onRemove,
-  truncate = "truncate-1-lines",
   icon,
   type,
   title,
@@ -49,6 +48,7 @@ const ToastMessage = ({
         onRemove(id);
       }, lifetime);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lifetime]);
 
   return (

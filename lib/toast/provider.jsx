@@ -29,7 +29,7 @@ export const ToastProvider = ({ children, variant }) => {
         return newItem.id;
       }
     },
-    [setData, data]
+    [setData]
   );
   const PushCustom = useCallback(
     ({ message, lifetime, truncate }, icon) => {
@@ -45,7 +45,7 @@ export const ToastProvider = ({ children, variant }) => {
         setData((prevState) => [...prevState, newItem]);
       }
     },
-    [setData, data]
+    [setData]
   );
   const PushError = useCallback(
     ({ message, title = "Error", lifetime, truncate }) =>

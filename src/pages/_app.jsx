@@ -1,6 +1,5 @@
 import "tailwindcss/tailwind.css";
 import { ToastProvider } from "@/lib/toast/provider";
-import { useState } from "react";
 
 function MyApp({ Component, pageProps }) {
   const position = {

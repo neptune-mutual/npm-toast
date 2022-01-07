@@ -1,7 +1,6 @@
 import { RenderCounter } from "@/components/RenderCounter";
 import { ToastPusher } from "@/components/ToastPusher";
 import Head from "next/head";
-import Image from "next/image";
 
 export default function Home() {
   return (

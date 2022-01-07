@@ -3,7 +3,7 @@
  * Author: Dalibor Kundrat  https://github.com/damikun
  */
 
-import React, { useContext } from "react";
+import React from "react";
 import { classNames } from "./utils";
 import ToastMessage from "./message";
 import { useToast } from "./context";
